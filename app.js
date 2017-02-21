@@ -6,4 +6,11 @@ var userNumber = 589;
 // console.log(moduleTwoVar.stringKey(userNumber + 1));
 
 var moduleThreeVar = require('./moduleThree.js');
-console.log(moduleThreeVar.endResult() + 234567);
+var finalResult = moduleThreeVar.endResult();
+
+var http = require('http');
+http.createServer (function(req, res){
+res.writeHead(200);
+res.write("Arrielle Kooiman and Phil Curtis say the account balance is: \n" + finalResult);
+res.end();
+}).listen(3000);

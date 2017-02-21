@@ -1,10 +1,6 @@
-Module Madness
-In this challenge, you will need to create a new Node project (much like we did in lecture). You will create three modules (js files) as specified below and create an app.js that will use these modules. Then you'll test your work via the curl terminal command!
-
-Modules
-Module One
-
-The first module will export a function that returns a random number after taking in a min and max value as arguments (hint: you can use random number functions from previous assignments). When you call this module, use 100 as your min, and 1000000 as your max.
+export a function
+returns a random number after taking in a min and max value as arguments
+(hint: you can use random number functions from previous assignments). When you call this module, use 100 as your min, and 1000000 as your max.
 
 Module Two
 
