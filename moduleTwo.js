@@ -1,0 +1,5 @@
+
+function string(userString) {
+return "$" + 
+
+}
